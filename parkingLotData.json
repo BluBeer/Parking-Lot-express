@@ -1,0 +1,202 @@
+[
+    {
+      "type": "car",
+      "slots": [
+        {
+          "id": "612f4544b8a0e777acc2cac7",
+          "floor": 1,
+          "isOccupied": true
+        },
+        {
+          "id": "612f45440567eaee1331a6a4",
+          "floor": 5,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45443fe14b13e055c284",
+          "floor": 2,
+          "isOccupied": true
+        },
+        {
+          "id": "612f4544adb00270a0165e65",
+          "floor": 5,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45443a3c8dc0cf804914",
+          "floor": 1,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544d33db6726ad58475",
+          "floor": 4,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45445c59cefb96c85847",
+          "floor": 2,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544be6eefd99f3e70b7",
+          "floor": 4,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544f84e9d3e4ff8f272",
+          "floor": 2,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45443e4bea1b68afe9d4",
+          "floor": 1,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544035c83155acc358a",
+          "floor": 5,
+          "isOccupied": false
+        }
+      ]
+    },
+    {
+      "type": "bike",
+      "slots": [
+        {
+          "id": "612f4544b3bbab49cbf7c7ab",
+          "floor": 5,
+          "isOccupied": false
+        },
+        {
+          "id": "612f454403277518014dd317",
+          "floor": 5,
+          "isOccupied": true
+        },
+        {
+          "id": "612f45445c7280905eaffc20",
+          "floor": 1,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544f123c3a2c682264f",
+          "floor": 1,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544413f8c8aabdd2a40",
+          "floor": 2,
+          "isOccupied": true
+        },
+        {
+          "id": "612f45448e15a66021a22161",
+          "floor": 5,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45440f409c05b86d1fda",
+          "floor": 3,
+          "isOccupied": false
+        },
+        {
+          "id": "612f454436003d8c402c333e",
+          "floor": 1,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45446bbda2503706089e",
+          "floor": 1,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544f4bf4cce0fc5fbc3",
+          "floor": 1,
+          "isOccupied": false
+        },
+        {
+          "id": "612f454490e5d10c56895e4a",
+          "floor": 4,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45444a374d8e02bbf312",
+          "floor": 1,
+          "isOccupied": false
+        }
+      ]
+    },
+    {
+      "type": "truck",
+      "slots": [
+        {
+          "id": "612f45447ac4baa46e5e74df",
+          "floor": 2,
+          "isOccupied": true
+        },
+        {
+          "id": "612f4544b1a7e352cb9b581d",
+          "floor": 5,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544af6a59d13f66b96b",
+          "floor": 2,
+          "isOccupied": false
+        },
+        {
+          "id": "612f454486f338f14ca68f99",
+          "floor": 5,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544754b717f0113c46c",
+          "floor": 1,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45445dee0ca533d86a8d",
+          "floor": 4,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544e61d1297edc6e9bf",
+          "floor": 2,
+          "isOccupied": false
+        },
+        {
+          "id": "612f4544539b3cd046d8fd83",
+          "floor": 4,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45445008295f1a92ce6c",
+          "floor": 5,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45446ad04093e68078d9",
+          "floor": 2,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45449f2dec56e942e1b5",
+          "floor": 2,
+          "isOccupied": false
+        },
+        {
+          "id": "612f454420632695f8f3c5ad",
+          "floor": 5,
+          "isOccupied": false
+        },
+        {
+          "id": "612f45443357799a5f216bba",
+          "floor": 2,
+          "isOccupied": false
+        },
+        {
+          "id": "612f454433c772febd9d61b1",
+          "floor": 4,
+          "isOccupied": false
+        }
+      ]
+    }
+  ]
