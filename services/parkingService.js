@@ -55,6 +55,17 @@ async function getParkingLotInfo() {
   return setResponse(data);
 }
 
+async function checkLogIn(username, password) {
+  const data = await global.db.collection('User').findOne({ username });
+  if (password == data.password) return `<h1>Password matched, Welcome ${username}</h1>`;
+  return '<h1>Password not matched</h1>';
+}
+
 module.exports = {
-  searchFreeTypeSpots, getFloorStatus, searchAndBook, searchAndRelease, getParkingLotInfo,
+  searchFreeTypeSpots,
+  getFloorStatus,
+  searchAndBook,
+  searchAndRelease,
+  getParkingLotInfo,
+  checkLogIn,
 };

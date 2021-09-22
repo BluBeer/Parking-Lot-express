@@ -1,4 +1,5 @@
 const parkingService = require('../services/parkingService');
+const authService = require('../services/authService');
 const { redisClient } = require('../database');
 
 const searchFreeSpots = async (req, res) => {
@@ -42,6 +43,23 @@ const parkingLotInfo = async (req, res) => {
   res.status(200).send(data);
 };
 
+const getUserLogIn = async (req, res) => {
+  // eslint-disable-next-line no-unused-vars
+  const response = await parkingService.checkLogIn(req.query.username, req.query.password);
+  const token = authService.generateToken(req.query.username);
+  const data = {
+    'token': token,
+    'username': req.query.username,
+  };
+  res.status(200).send(data);
+};
+
 module.exports = {
-  searchFreeSpots, getFloorStatus, bookSpot, releaseSpot, allFreeSpots, parkingLotInfo,
+  searchFreeSpots,
+  getFloorStatus,
+  bookSpot,
+  releaseSpot,
+  allFreeSpots,
+  parkingLotInfo,
+  getUserLogIn,
 };

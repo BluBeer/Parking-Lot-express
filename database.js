@@ -2,10 +2,10 @@ const MongoClient = require('mongodb').MongoClient;
 const redis = require('redis');
 // const fs = require('fs');
 
-// const obj = JSON.parse(fs.readFileSync('parkingLotInfo.json', 'utf8'));
+// const obj = JSON.parse(fs.readFileSync('userCredentials.json', 'utf8'));
 
 // function insertData(db) {
-//   db.collection('Info').insertMany(obj);
+//   db.collection('User').insertMany(obj);
 // }
 const url = 'mongodb+srv://avisahney:helloworld@parkinglot.ffjbl.mongodb.net/parkinglot?retryWrites=true&w=majority';
 
